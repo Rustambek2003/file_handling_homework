@@ -6,5 +6,12 @@ def main(data:str):
     Returns:
         list: return answer
     """
-    
+    ans = []
+    for line in data:
+        if line.isdigit():
+            ans += []
+        else:
+            ans += line
+f = open('txt_file/data04.txt').read()
+print(main(f))
 # Read data from file
