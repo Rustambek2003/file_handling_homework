@@ -11,7 +11,9 @@ def main(data:str):
         if line.isdigit():
             ans += []
         else:
-            ans += line
+            ans.append(line)
+    return ans
+
 f = open('txt_file/data04.txt').read()
 print(main(f))
 # Read data from file
