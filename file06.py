@@ -12,4 +12,3 @@ def main(data:str):
     return ans
 f = open('txt_file/data06.txt').read().split()
 print(main(f))
-# Read data from file
