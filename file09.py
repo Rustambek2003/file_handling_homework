@@ -6,7 +6,7 @@ def main(data:str):
     Returns:
         int: return answer
     """
-    data = data.split()
+    
     ans = 0
     for i in data:
         if i.isdigit() and ans > int(i):
